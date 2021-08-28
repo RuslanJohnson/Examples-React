@@ -1,0 +1,101 @@
+* {
+  padding   : 0;
+  margin    : 0;
+  box-sizing: border-box
+}
+
+button {
+  border: 0;
+}
+
+hr {
+  margin: 15px 0;
+}
+
+#root {
+  display       : flex;
+  flex-direction: column;
+  align-items   : center;
+}
+
+.app {
+  width: 90%;
+}
+
+.post {
+  display        : flex;
+  justify-content: space-between;
+  align-items    : center;
+  border         : 2px solid teal;
+  border-radius  : 5px;
+  padding        : 15px;
+  margin         : 15px 0;
+}
+
+.post__btns {
+  display: flex;
+}
+
+
+.pagination {
+  width : auto;
+  height: auto;
+  margin: 15px auto;
+}
+
+.page {
+  display         : inline-block;
+  text-align      : center;
+  border-radius   : 3px;
+  padding         : 10px;
+  background-color: teal;
+  margin-right    : 5px;
+  color           : #fff;
+  border          : 2px solid teal;
+  cursor          : pointer;
+  transition      : .1s ease-in-out;
+  user-select     : none;
+}
+
+.page:hover {
+  background-color: #fff;
+  color           : teal;
+  border          : 2px solid teal;
+}
+
+.page.current {
+  border          : 2px solid teal;
+  background-color: #fff;
+  color           : teal;
+}
+
+.navbar {
+  height          : 50px;
+  width           : 100%;
+  display         : flex;
+  align-items     : center;
+  justify-content : center;
+  padding         : 0 15px;
+  background-color: teal;
+}
+
+.links a {
+  color : #fff;
+  margin: 15px;
+}
+
+.postPage {
+  margin: 0 50px;
+}
+
+
+
+.postPage h1 {
+  margin: 20px 0;
+}
+
+.comment {
+  border       : 2px solid teal;
+  margin-bottom: 20px;
+  padding      : 15px;
+}

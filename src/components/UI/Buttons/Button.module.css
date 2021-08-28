@@ -1,0 +1,13 @@
+.formBtn {
+  border-radius   : 3px;
+  padding         : 7px;
+  background-color: teal;
+  color           : #fff;
+  transition      : .1s ease-in-out;
+  margin-right    : 5px;
+}
+
+.formBtn:hover {
+  background-color: #fff;
+  color           : teal;
+}
